@@ -1,0 +1,221 @@
+:root {
+  --main-bgc: #2f303a;
+  --main-color: #757575;
+  --main-color-accent: #212121;
+  --main-bgc-comand: #f5f4fa;
+  --main-color-hero: #2f303a;
+  --main-color-blue: #2196f3;
+  --main-color-white: #ffffff;
+  --main-color-black: #000000;
+}
+body {
+  background-color: var(--main-color-white);
+  color: var(--main-color);
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+.links {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Logo */
+.logo {
+  color: var(--main-color-blue);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.logo-head {
+  color: var(--main-color-black);
+}
+
+/* Header */
+.header {
+  background-color: var(--main-color-white);
+}
+.site-nav {
+  color: var(--main-color-accent);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--main-color-blue);
+}
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--main-color-blue);
+}
+.site-nav .current {
+  color: var(--main-color-blue);
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--main-color-hero);
+}
+.hero-title {
+  color: var(--main-color-white);
+  background-color: var(--main-bgc);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.hero-bt {
+  background-color: var(--main-color-blue);
+  color: var(--main-color-white);
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Особливості */
+
+.feature-title {
+  color: var(--main-color-accent);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feature-text {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* Діяльність */
+.activity {
+  background-color: var(--main-color-white);
+}
+.activity-title {
+  color: var(--main-color-accent);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+}
+
+/* Наша команда */
+
+.team {
+  background-color: var(--main-bgc-comand);
+}
+.team-person {
+  color: var(--main-color-accent);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.team-title {
+  color: var(--main-color-accent);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--main-bgc);
+}
+.footer-logo {
+  color: var(--main-color-blue);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.footer-logo-head {
+  color: var(--main-color-white);
+}
+.footer-address {
+  color: var(--main-color-white);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-contacts {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.footer-address:hover,
+.footer-address:focus,
+.footer-contacts:focus,
+.footer-contacts:hover {
+  color: var(--main-color-blue);
+}
+
+/* ПОРТФОЛІО */
+.main {
+  background-color: var(--main-color-white);
+  color: var(--main-color);
+}
+
+/* Main */
+
+.main-list-item {
+  color: var(--main-color-accent);
+  background-color: var(--main-bgc-comand);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  cursor: pointer;
+}
+.main-list-item:hover,
+.main-list-item:focus {
+  background-color: var(--main-color-blue);
+  color: var(--main-color-white);
+}
+.galery {
+  background-color: var(--main-bgc-comand);
+  color: var(--main-color-accent);
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+}
+.galery-title {
+  color: var(--main-color-accent);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.galary-text {
+  font-size: 16px;
+  line-height: 1.88;
+}
