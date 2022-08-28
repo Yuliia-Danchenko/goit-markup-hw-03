@@ -318,6 +318,7 @@ p {
 
 .main-list-item {
   border: transparent;
+  border-radius: 4px;
   color: var(--main-color-accent);
   background-color: var(--main-bgc-comand);
   font-weight: 500;
