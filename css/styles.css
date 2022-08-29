@@ -10,6 +10,7 @@
   --main-color-blue: #2196f3;
   --main-color-white: #ffffff;
   --main-color-black: #000000;
+  --galary-border: #eeeeee;
 }
 body {
   background-color: var(--main-color-white);
@@ -342,6 +343,12 @@ p {
   line-height: 1.62;
   text-align: center;
 }
+.galary-border {
+  border-left: 1px solid var(--galary-border);
+  border-right: 1px solid var(--galary-border);
+  border-bottom: 1px solid var(--galary-border);
+}
+
 .galery-title {
   color: var(--main-color-accent);
   font-weight: 700;
