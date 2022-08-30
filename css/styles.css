@@ -235,8 +235,10 @@ img {
 
 /* Наша команда */
 
-.section {
-  background-color: var(--main-color-white);
+.section-team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  background-color: var(--main-bgc-comand);
 }
 .team-list {
   display: flex;
