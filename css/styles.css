@@ -64,6 +64,7 @@ p {
 }
 .container-header {
   display: flex;
+  align-items: center;
 }
 .header-nav {
   display: flex;
@@ -92,6 +93,9 @@ p {
 }
 .site-nav-link {
   display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 50px;
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
@@ -108,12 +112,7 @@ p {
 }
 .contacts {
   display: flex;
-}
-
-.contacts-item {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 50px;
+  gap: 50px;
 }
 
 .contacts-item:last-child {
@@ -243,8 +242,6 @@ img {
 /* Наша команда */
 
 .section-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: var(--main-bgc-comand);
 }
 .team-list {
@@ -276,7 +273,7 @@ img {
   color: var(--main-color-accent);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.67;
+  line-height: 1.17;
   text-align: center;
 }
 .team-info {
